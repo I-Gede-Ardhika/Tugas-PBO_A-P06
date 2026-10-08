@@ -4,11 +4,14 @@ notes:
 1. saya menggunakan extention code runner untuk menampilkan output file php
 
 folder 01:
+
 Output:
+
 Main.php:
 <img width="871" height="191" alt="image" src="https://github.com/user-attachments/assets/310e1c1d-81a0-4ddd-8225-5d8670983533" />
 
 perubahan dasar dan per file:
+
 Main.php:
 1. saya menambahkan "Main::main([]);" pada file main.php agar bisa dirun
 2. saya menambahkan "require 'iPhone.php';" pada file main.php agar bisa membuat objek Iphone dari class iphone
@@ -18,17 +21,22 @@ Iphone.php:
 
 
 folder 02:
+
 Output:
+
 Aplikasi.php
 <img width="916" height="243" alt="image" src="https://github.com/user-attachments/assets/4b5b40b9-2202-4be3-9d46-b16e32160b59" />
 
 perubahan dasar dan per file:
+
 Mahasiswa.php:
 1. Constructor overloading tidak ada di PHP. Satu class hanya boleh punya satu __construct, jadi tiga constructor Java digabung menjadi satu dengan nilai default pada parameternya.
 
 
 folder 03:
+
 Output:
+
 App.php:
 <img width="855" height="223" alt="image" src="https://github.com/user-attachments/assets/40f5657f-1831-4191-966d-4e732300a4fb" />
 
@@ -60,11 +68,14 @@ MahasiswaInternational.php:
 
 
 folder 04:
+
 Output:
+
 Main.php:
 <img width="866" height="279" alt="image" src="https://github.com/user-attachments/assets/dca56db8-acfa-48a6-9351-040537ee71c4" />
 
 perubahan dasar dan per file:
+
 Handphone.php:
 1. Properti protected tetap protected di PHP, sehingga subclass (Smartphone, FeaturePhone) bisa mengaksesnya langsung lewat $this->merk dan $this->model.
 2. Constructor berubah menjadi __construct, System.out.println menjadi echo ... . "\n", dan tipe kembalian void ditulis setelah tanda kurung.
@@ -88,11 +99,14 @@ Main.php:
 
 
 folder 05:
+
 Output:
+
 Main.php:
 <img width="864" height="213" alt="image" src="https://github.com/user-attachments/assets/585d3b07-2917-4349-a629-cee2d86fa82a" />
 
 perubahan dasar dan per file:
+
 Pasien.php:
 1. Constructor menjadi __construct, tipe String menjadi string, dan tipe kembalian ditulis setelah tanda kurung (getNama(): string).
 
@@ -126,11 +140,14 @@ Main.php:
 
 
 folder 06:
+
 Output:
+
 Main.php:
 <img width="861" height="336" alt="image" src="https://github.com/user-attachments/assets/45f3931c-0f3f-47f3-8fc6-49469cf7a1d6" />
 
 perubahan dasar dan per file:
+
 Vehicle.php:
 1. __construct, $this->, echo . "\n", dan tipe kembalian : void.
 
